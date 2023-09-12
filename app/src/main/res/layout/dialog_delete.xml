@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvRemoveTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Remove: "Go to Fujisan" ?'
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_border_day"
+        android:layout_marginHorizontal="10dp">
+
+        <TextView
+            android:id="@+id/tvRemoveDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: 14/8/2023"
+            android:textSize="18dp"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/tvRemoveTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: 16:08"
+            android:textSize="18dp"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/tvRemoveContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btnRemoveCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="Cancel"/>
+
+        <Button
+            android:id="@+id/btnRemoveDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="Remove"/>
+
+    </LinearLayout>
+
+</LinearLayout>

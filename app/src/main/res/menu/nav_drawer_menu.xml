@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemAllWork"
+        android:title="View all works"/>
+    <item
+        android:id="@+id/itemUnfinished"
+        android:title="View unfinished works"/>
+<!--    <item-->
+<!--        android:id="@+id/itemReset"-->
+<!--        android:title="Reset to default"/>-->
+</menu>
