@@ -245,7 +245,6 @@ class MainActivity : AppCompatActivity(), OnItemClickListener {
         upcomingWorkListLiveData.observe(this, observerUpcoming)
     }
 
-    //implement the click listener of items
     override fun onItemDayClick(position: Int) {
         //set the selected day to change the background only
         viewModel.selectDayAndDisplayWork(position)
